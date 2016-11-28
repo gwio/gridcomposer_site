@@ -10,7 +10,7 @@
 
 
   <!--nav-->
-<?php include("nav.php") ?>
+  <?php include("nav.php") ?>
 
 
   <div class="w3-gc_black">
@@ -107,15 +107,19 @@
   <div class="w3-gc_white">
     <div class="w3-container w3-content">
       <div class="w3-row blockspace">
+        <div class="w3-col m12 l7">
+          <div class="w3-row">
+            <div class="w3-col fixText">
+              <h3>Start Playing</h3>
+              <p class="big">You can start building from scratch on an empty grid, or use one of the prebuilt examples as a starting point. Take a look at the short quickstart guide below, to get an impression how GridComposer works. Check the manual to get a complete overview of the functionality.
+              </p>
+            </div>
+            <div class="w3-rest"></div>
+          </div>
+        </div>
         <div class="w3-col l5 w3-display-container">
-          <img id="playingIMG" src="images/gc_empty.png" class="fixImage" style="width:100%; max-width:500px;  margin: auto; display: block;">
-        </div>
-        <div class="w3-container w3-col m1"></div>
-        <div class="w3-col m12 l6">
-          <h3>Start Playing</h3>
-          <p class="big">You can start building from scratch on an empty grid, or use one of the prebuilt examples as a starting point. Take a look at the short quickstart guide below, to get an impression how GridComposer works. Check the manual to get a complete overview of the functionality.
-          </p>
-        </div>
+          <img id="playingIMG" src="images/gc_empty.png" style="width:100%; max-width:500px;  margin: auto; display: block;">
+        </div>      
       </div>
     </div>
   </div>
