@@ -1,0 +1,13 @@
+#Ignore everything
+*
+
+!/css
+
+#Whitelist the gitignore itself
+!.gitignore
+
+#Whitelist .cpp and .h files
+!*.html
+!*.css
+!*.js
+!*.php

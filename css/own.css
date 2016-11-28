@@ -1,0 +1,278 @@
+/* color
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+html {background-color: #131313;}
+
+.w3-content{max-width:1200px;}
+
+.w3-gc_white,.w3-hover-gc_white:hover{background-color:#EDEDED!important}
+.w3-gc_black,.w3-hover-gc_black:hover{background-color:#131313!important}
+
+h1,h2,h3,h4,h5,h6,.w3-slim,.w3-wide{font-family:"Teko",Arial,sans-serif; font-weight: 400;}
+
+h3{
+  font-family: "Open Sans";
+  color:#131313;
+  font-weight: 800;
+  font-size: 1.65em;
+  line-height: 1.55;
+}
+
+.foText{
+  font-family: "Open Sans";
+  color:#EDEDED;
+  font-weight: 400;
+  font-size: 0.75em;
+  line-height: 1.55;
+}
+
+.foLink{
+  font-family: "Open Sans";
+  color:#EDEDED;
+  font-weight: 600;
+  font-size: 0.85em;
+  line-height: 1.55;
+}
+
+.titleContainer{
+  padding-top: 8.5%;
+  padding-bottom: 1.5%;
+}
+
+.blockspace{
+  padding-top:2.55%;
+  padding-bottom:6.0%;
+}
+
+.galleryspace{
+  padding-top:6%;
+  padding-bottom:7.5%;
+}
+
+.applink{
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 44px;
+  padding-top: 6px;
+  width:32%;
+}
+
+.mainTitle{
+  font-family: "Teko",Arial,sans-serif;
+  font-weight: 500;
+  color: #FCFCFC;
+  letter-spacing: 0.125rem;
+  text-align: center;
+  font-size: 7.5em;
+  margin: 0px;
+  direction: rtl;
+  overflow-x: visible;
+  color: #FFFFFF;
+}
+
+.subTitle{
+  font-family: "Open Sans Condensed",Arial,sans-serif;
+  font-weight: 300;
+  letter-spacing: 0.095rem;
+  text-align: center;
+  font-size: 2.72em;
+  margin: 0px;
+  overflow-x: visible;
+  direction: rtl;
+  white-space: nowrap;
+  line-height: 0.00em;
+  text-transform: uppercase;
+  padding-bottom: 1.20em;
+  color: #656565;
+}
+
+p.big{
+  color:#131313;
+  font-weight: 300;
+  font-size: 1.55em;
+  line-height: 1.5;
+}
+
+
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li{
+  color:#131313;
+  padding:0;
+  font-weight: 400;
+  font-size: 1.12em;
+  line-height: 2.1;
+  border-bottom: 1px solid #ddd;
+}
+
+.fixText{width: 100%;}
+.fixImage{padding-bottom: 5%}
+#featureIMG{padding-top:8.5%;padding-bottom: 3%;}
+#playingIMG{padding-top:3%;}
+#midiIMG{padding-top:3%; padding-bottom: 3%;}
+
+@media only screen and (min-width:751px){
+  .mainTitle{
+    font-size: 4.55em;
+    padding-top: 7px;
+    text-align: right;
+  }
+  .subTitle{
+    font-size: 1.605em;
+    text-align: right;
+  }
+
+  .applink{
+    position:absolute;
+    bottom: 0;
+    right: 0;
+    float: right;
+    padding-bottom: 7.5%;
+    width:22%;
+  }
+
+
+}
+
+@media only screen and (min-width:880px){
+  .mainTitle{
+    font-size: 5.55em;
+    padding-top: 5px;
+    text-align: right;
+  }
+  .subTitle{
+    font-size: 1.98em;
+    text-align: right;
+  }
+}
+
+@media only screen and (min-width:993px){
+  .mainTitle{
+    font-size: 5.8em;
+    padding-top: 8px;
+    text-align: right;
+  }
+  .subTitle{
+    font-size: 2.0825em;
+    text-align: right;
+  }
+  .fixText{width: 87%;}
+  .fixImage{padding-bottom: 0%;}
+
+  #featureIMG{padding-top:13%;}
+  #playingIMG{padding-top:17.5%;}
+  #midiIMG{padding-top:16.5%;}
+}
+
+@media only screen and (min-width:1150px){
+  .mainTitle{
+    font-size: 6.75em;
+    padding-top: 9px;
+    text-align: right;
+  }
+  .subTitle{
+    font-size: 2.44em;
+    text-align: right;
+  }
+
+}
+
+
+
+
+a.title {
+  font-family: "Raleway";
+}
+
+li a.title{
+  font-weight: 400;
+  font-family: "Raleway";
+  font-size: 1.4rem;
+  letter-spacing: 0.025em;
+}
+
+.embed-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  max-width: 100%;
+}
+.embed-container iframe, .embed-container object, .embed-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* nav
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.section-light{
+  background-color: #EFEFEF;
+}
+
+.section-dark{
+  background-color: #131313;
+}
+
+
+
+/* gc text-color
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.text-white{
+  color: #C3C3C3;
+}
+
+.text-cyan{
+  color: #009ECC;
+}
+
+.text-yellow{
+  color: #CCA700;
+}
+
+.text-magenta{
+  color: #CC006E;
+}
+
+.text-orange{
+  color: #D12C00;
+}
+
+.text-black{
+  color: #131313;
+}
+
+/* gc background-color
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.background-white{
+  background-color: #EFEFEF;
+}
+
+.background-cyan{
+  background-color: #009ECC;
+}
+
+.background-yellow{
+  background-color: #CCA700;
+}
+
+.background-magenta{
+  background-color: #CC006E;
+}
+
+.background-orange{
+  background-color: #D12C00;
+}
+
+.background-black{
+  background-color: #131313;
+}
