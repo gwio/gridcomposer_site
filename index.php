@@ -83,14 +83,14 @@
             $featurePics+=1;
           }
           ?>
-<div class="w3-center" style="width:100%">
-          <?php
-          for ($x = 1; $x <= $featurePics; $x++) {
-            $hm = ($x+1);
-            echo  '<div style="padding:1.45%; display:inline-block;"><div class="imgMarker featureSlidemarker"></div></div>';
-          }
-          ?>
-</div>
+          <div class="w3-center" style="width:100%">
+            <?php
+            for ($x = 1; $x <= $featurePics; $x++) {
+              $hm = ($x+1);
+              echo  '<div style="padding:1.45%; display:inline-block;"><div class="imgMarker featureSlidemarker"></div></div>';
+            }
+            ?>
+          </div>
         </div>
 
 
