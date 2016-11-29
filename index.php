@@ -51,7 +51,7 @@
 
   <div class="w3-gc_white">
     <div class="w3-container w3-content">
-      <div class="w3-row blockspace">
+      <div class="w3-row blockspaceFeature">
         <div class="w3-col m12 l7">
           <div class="w3-row">
             <div class="w3-col fixText">
@@ -77,10 +77,20 @@
           <div class="w3-display-left w3-xxlarge w3-hover-text-dark-grey" style="cursor:pointer; padding-left:1.5%;padding-top:12.5%;color:#CCCCCC;"  onclick="plusDivs(-1,2)">&#10094;</div>
           <div class="w3-display-right w3-xxlarge w3-hover-text-dark-grey" style="cursor:pointer; padding-right:1.5%;padding-top:12.5%; color:#CCCCCC;" onclick="plusDivs(1,2)">&#10095;</div>
           <?php
+          $featurePics = 0;
           foreach (glob("images/featureSlide/*.png") as $filename){
             echo '<img id="featureIMG" class="featureSlide" src="' . $filename . '" style="width:80%;max-width:400px; display:block; margin:auto;">';
+            $featurePics+=1;
           }
           ?>
+<div class="w3-center" style="width:100%">
+          <?php
+          for ($x = 1; $x <= $featurePics; $x++) {
+            $hm = ($x+1);
+            echo  '<div style="padding:1.45%; display:inline-block;"><div class="imgMarker featureSlidemarker"></div></div>';
+          }
+          ?>
+</div>
         </div>
 
 
@@ -93,14 +103,27 @@
     <div style="max-width:1300px; display:block; margin: auto">
       <div class="w3-row w3-display-container galleryspace">
         <?php
+        $galleryPics = 0;
         foreach (glob("images/slideshow/*.png") as $filename){
           echo '<img class="screenSlide" src="' . $filename . '" style="width:100%;">';
+          $galleryPics+=1;
         }
         ?>
         <div class="w3-display-left w3-xxlarge w3-hover-text-light-grey" style="cursor:pointer; padding-left:3.5%;padding-bottom:3.5%;color:#464646"  onclick="plusDivs(-1,1)">&#10094;</div>
         <div class="w3-display-right w3-xxlarge w3-hover-text-light-grey" style="cursor:pointer; padding-right:3.5%;padding-bottom:3.5%;color:#464646" onclick="plusDivs(1,1)">&#10095;</div>
+
+        <div class="w3-center" style="width:100%">
+          <?php
+          for ($x = 1; $x <= $galleryPics; $x++) {
+            $hm = ($x+1);
+            echo  '<div style="padding:0.85%; display:inline-block;"><div class="imgMarker screenSlidemarker"></div></div>';
+          }
+          ?>
+        </div>
+
       </div>
     </div>
+
   </div>
 
 
@@ -119,7 +142,7 @@
         </div>
         <div class="w3-col l5 w3-display-container">
           <img id="playingIMG" src="images/gc_empty.png" style="width:100%; max-width:500px;  margin: auto; display: block;">
-        </div>      
+        </div>
       </div>
     </div>
   </div>

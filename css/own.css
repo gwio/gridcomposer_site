@@ -43,9 +43,14 @@ h3{
   padding-bottom:6.0%;
 }
 
+.blockspaceFeature{
+  padding-top:2.55%;
+  padding-bottom:3.0%;
+}
+
 .galleryspace{
   padding-top:6%;
-  padding-bottom:7.5%;
+  padding-bottom:3.25%;
 }
 
 .applink{
@@ -109,6 +114,15 @@ li{
   border-bottom: 1px solid #ddd;
 }
 
+.imgMarker{
+  height: 4px;
+  width: 4px;
+  border-radius: 52%;
+  display: inline-block;
+  transition-property: background-color, color;
+  transition-duration: 300ms;
+}
+
 #featureIMG{padding-bottom:2.5%; padding-top: 4.5%}
 #playingIMG{padding-bottom:2.5%; padding-top: 2.0%}
 #midiIMG{padding-bottom:2.5%; padding-top: 2.0%}
@@ -123,6 +137,10 @@ li{
     font-size: 2.72em;
     text-transform: uppercase;
     padding-bottom: 1.20em;
+  }
+  .imgMarker{
+    height: 6px;
+    width: 6px;
   }
 }
 
@@ -147,6 +165,10 @@ li{
   .subTitle{
     font-size: 1.785em;
     text-align: right;
+  }
+  .imgMarker{
+    height: 8px;
+    width: 8px;
   }
 }
 
@@ -177,6 +199,11 @@ li{
   #featureIMG{padding-top:13%;}
   #playingIMG{padding-top:17.5%;}
   #midiIMG{padding-top:16.5%;}
+
+  .imgMarker{
+    height: 10px;
+    width:10px;
+  }
 }
 
 @media only screen and (min-width:1150px){
