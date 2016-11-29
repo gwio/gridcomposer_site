@@ -5,6 +5,14 @@ var slideIndexFeature = 1;
 showDivs(slideIndexGallery,1);
 showDivs(slideIndexGallery,2);
 
+function currentDiv(n,g) {
+  if(g ==1){
+     showDivs(slideIndexGallery = n,g);
+  } else if(g ==2){
+     showDivs(slideIndexFeature = n,g);
+  }
+
+}
 
 function showDivs(n,g) {
 var cName;

@@ -115,14 +115,20 @@ li{
 }
 
 .imgMarker{
-  height: 4px;
-  width: 4px;
-  border-radius: 52%;
+  height: 3.5px;
+  width: 3.5px;
+  border-radius: 18%;
   display: inline-block;
   transition-property: background-color, color;
   transition-duration: 300ms;
+  cursor:pointer;
 }
 
+
+.slideArrow{
+  font-size: 1.75em;
+  font-weight: 600;
+}
 #featureIMG{padding-bottom:2.5%; padding-top: 4.5%}
 #playingIMG{padding-bottom:2.5%; padding-top: 2.0%}
 #midiIMG{padding-bottom:2.5%; padding-top: 2.0%}
@@ -139,8 +145,8 @@ li{
     padding-bottom: 1.20em;
   }
   .imgMarker{
-    height: 6px;
-    width: 6px;
+    height: 5px;
+    width: 5px;
   }
 }
 
@@ -175,8 +181,8 @@ li{
     text-align: right;
   }
   .imgMarker{
-    height: 8px;
-    width: 8px;
+    height: 6.5px;
+    width: 6.5px;
   }
 }
 
@@ -209,8 +215,8 @@ li{
   #midiIMG{padding-top:16.5%;}
 
   .imgMarker{
-    height: 10px;
-    width:10px;
+    height: 8px;
+    width:8px;
   }
 }
 
