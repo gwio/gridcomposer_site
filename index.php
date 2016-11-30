@@ -55,7 +55,7 @@
         <div class="w3-col m12 l7">
           <div class="w3-row">
             <div class="w3-col fixText">
-              <h3>Features</h3>
+              <h3>Main Features</h3>
               <ul>
                 <li>Universal App for iPhone and iPad.</li>
                 <li>Contains four build-in, polyphonic synthesizer presets.</li>
