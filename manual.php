@@ -14,21 +14,25 @@
   <?php include("nav.php") ?>
 
 
-  <div class="w3-gc_white">
+
+  <div class="w3-gc_black">
     <div class="w3-container w3-content">
       <div class="w3-row blockspace">
-        <div class="w3-col m12 l7">
+
+        <div class="w3-col m12 l4">
           <div class="w3-row">
-            <div class="w3-col fixText">
-              <h3>Overview</h3>
-              <p class="big">The main focus in the app are the three grids. They can be thought of as a kind of sequencer. A multitude of patterns can be created on them, and they synchronized to a global speed and scale setting. One good way to start would be to create some simple patterns, or just load up an example and start playing with the different harmony and tempo settings.</p>
+            <div class="w3-col fixText w3-display-container">
+              <img id="manualLogo" src="images/appIconBig.png" style="width:81%; margin: auto; display: block;">
             </div>
             <div class="w3-rest"></div>
           </div>
         </div>
-        <div class="w3-col l5 w3-display-container">
-          <img class="manualIMG" src="images/appIconBig.png" style="width:45%; max-width:500px;  margin: auto; display: block;">
+
+        <div class="w3-col m12 l8">
+
+          <p class="big w3-text-light-grey">The main focus in the app are the three grids. They can be thought of as a kind of sequencer. A multitude of patterns can be created on them, and they synchronized to a global speed and scale setting. One good way to start would be to create some simple patterns, or just load up an example and start playing with the different harmony and tempo settings.</p>
         </div>
+
       </div>
     </div>
   </div>
@@ -42,7 +46,7 @@
               <h3 id="homeScreen">Home Screen</h3>
               <p class="big">This is the main view where you can access the grids and toggle the different menus and settings.</p>
               <ul class="manual">
-                <li class="manual">Tap on a grid to focus on it, this will activate the <a href="manual.php#editMode">edit mode</a>. Below the grids you will see a button to pause the playback. A grid which is not playing, will appear with desaturated colors. Tap on the arrow to resume playing.</li>
+                <li class="manual">Tap on a grid to focus on it, this will activate the <a href="manual.php#editMode">edit mode</a>. Below the grids you will find a button to pause the playback. A grid which is not playing, will appear with desaturated colors. Tap on the arrow to resume playing.</li>
                 <li class="manual">The top row gives you access to the <a href="manual.php#volumeView">volume</a>, <a href="manual.php#harmonyView">harmony</a> and <a href="manual.php#tempoView">tempo view</a>, while the bottom row activates the settings and preset menus.</li>
                 <li class="manual">After a while without activity, the home screen interface fades out, just tap to wake it up.</li>
               </ul>

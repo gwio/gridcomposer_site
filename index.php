@@ -13,6 +13,7 @@
   <?php include("nav.php") ?>
 
 
+
   <div class="w3-gc_black">
     <div class="w3-container w3-content">
       <div class="w3-row w3-display-container titleContainer">
@@ -74,8 +75,7 @@
         </div>
 
         <div class="w3-col l5 w3-display-container">
-          <div class="w3-display-left slideArrow w3-hover-text-dark-grey" style="cursor:pointer; padding-left:1.5%;padding-top:0%;color:#CCCCCC;"  onclick="plusDivs(-1,2)">&#10094;</div>
-          <div class="w3-display-right slideArrow w3-hover-text-dark-grey" style="cursor:pointer; padding-right:1.5%;padding-top:0%; color:#CCCCCC;" onclick="plusDivs(1,2)">&#10095;</div>
+
           <?php
           $featurePics = 0;
           foreach (glob("images/featureSlide/*.png") as $filename){
