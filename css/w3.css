@@ -29,10 +29,10 @@ legend{color:inherit;display:table;max-width:100%;padding:0;white-space:normal}t
 /* End extract */
 
 
-html,body{font-family:"Open Sans",Verdana,sans-serif;font-size:9.0px;line-height:1.5}html{overflow-x:hidden}
+html,body{font-family:"Open Sans",Verdana,sans-serif;font-size:9.5px;line-height:1.5}html{overflow-x:hidden}
 
-@media only screen and(mind-width:420px) {
-html,body{font-family:"Open Sans",Verdana,sans-serif;font-size:10px;line-height:1.5}html{overflow-x:hidden}
+@media only screen and (min-width:420px) {
+html,body{font-family:"Open Sans",Verdana,sans-serif;font-size:12px;line-height:1.5}html{overflow-x:hidden}
 }
 
 @media only screen and (min-width:651px){
@@ -248,9 +248,9 @@ input[type=checkbox].w3-check:disabled+.w3-validate,input[type=radio].w3-radio:d
 .w3-animate-fading{-webkit-animation:fading 2s ;animation:fading 2s }
 @-webkit-keyframes fading{0%{opacity:0}50%{opacity:1}100%{opacity:0}}
 @keyframes fading{0%{opacity:0}50%{opacity:1}100%{opacity:0}}
-.w3-animate-opacity{-webkit-animation:opac 0.65s;animation:opac 0.65s}
-@-webkit-keyframes opac{from{opacity:0} to{opacity:1}}
-@keyframes opac{from{opacity:0} to{opacity:1}}
+.w3-animate-opacity{-webkit-animation:opac 1.00s;animation:opac 1.00s}
+@-webkit-keyframes opac{from{opacity:0.5} to{opacity:1}}
+@keyframes opac{from{opacity:0.5} to{opacity:1}}
 .w3-animate-top{position:relative;-webkit-animation:animatetop 0.4s;animation:animatetop 0.4s}
 @-webkit-keyframes animatetop{from{top:-300px;opacity:0} to{top:0;opacity:1}}
 @keyframes animatetop{from{top:-300px;opacity:0} to{top:0;opacity:1}}

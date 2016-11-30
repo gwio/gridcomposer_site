@@ -4,7 +4,7 @@
     <ul class="w3-navbar w3-gc_white">
       <li><a  class="text-black w3-padding-16"  href="">OVERVIEW</a></li>
       <li><a  class="text-black w3-padding-16"  href="">MANUAL</a></li>
-      <li  style="float:right"><a href=""><img src="images/logo_white.png" height="48px"></a></li>
+      <li  style="float:right"><a href=""><img src="images/appIconBig.png" height="48px"></a></li>
     </ul>
 
   </div>

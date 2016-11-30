@@ -79,7 +79,7 @@
           <?php
           $featurePics = 0;
           foreach (glob("images/featureSlide/*.png") as $filename){
-            echo '<img id="featureIMG" class="featureSlide" src="' . $filename . '" style="width:80%;max-width:400px; display:block; margin:auto;" onclick="plusDivs(1,2)">';
+            echo '<img id="featureIMG" class="featureSlide w3-animate-opacity" src="' . $filename . '" style="width:80%;max-width:400px; display:block; margin:auto;" onclick="plusDivs(1,2)">';
             $featurePics+=1;
           }
           ?>
@@ -104,7 +104,7 @@
         <?php
         $galleryPics = 0;
         foreach (glob("images/slideshow/*.png") as $filename){
-          echo '<img class="screenSlide" src="' . $filename . '" style="width:100%;" onclick="plusDivs(1,1)">';
+          echo '<img class="screenSlide w3-animate-opacity" src="' . $filename . '" style="width:100%;" onclick="plusDivs(1,1)">';
           $galleryPics+=1;
         }
         ?>

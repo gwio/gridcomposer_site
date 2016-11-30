@@ -4,7 +4,7 @@ html {background-color: #131313;}
 p{color:#131313;}
 .w3-content{max-width:1200px;}
 
-.w3-gc_white,.w3-hover-gc_white:hover{background-color:#EDEDED!important}
+.w3-gc_white,.w3-hover-gc_white:hover{background-color:#F1F1F1!important}
 .w3-gc_black,.w3-hover-gc_black:hover{background-color:#131313!important}
 
 h1,h2,h3,h4,h5,h6,.w3-slim,.w3-wide{font-family:"Teko",Arial,sans-serif; font-weight: 400;}
@@ -136,16 +136,23 @@ li{
 li.manual{
   color:#131313;
   padding: 0;
-  font-weight: 700;
-  font-size: 1.0em;
-  line-height: 1.85;
-  border-bottom: 0px;
-  padding-bottom: 3%;
+  font-weight: 600;
+  font-size: 0.95em;
+  line-height: 1.8;
+  padding-bottom: 1.5%;
+  padding-top: 1.5%;
+  padding-left: 2.5%;
+  border-bottom: 0;
+
 }
 ul.manual{
-  list-style-type: disc;
+  list-style: disc;
   margin: 0;
+  padding-left: 4%;
+  padding-top: 2%;
+  border-bottom: 0;
 }
+
 
 
 #featureIMG{padding-bottom:2.5%; padding-top: 4.5%}
