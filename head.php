@@ -23,5 +23,5 @@
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="icon" type="image/png" href="images/favicon.png">
 
-  <?php include_once($ROOT . 'include/php/analyticstracking.php') ?>
+  <?php include_once('analyticstracking.php') ?>
 </head>
