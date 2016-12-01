@@ -30,7 +30,7 @@
 
         <div class="w3-col m12 l8">
 
-          <p class="big w3-text-light-grey">The main focus in the app are the three grids. They can be thought of as a kind of sequencer. A multitude of patterns can be created on them, and they synchronized to a global speed and scale setting. One good way to start would be to create some simple patterns, or just load up an example and start playing with the different harmony and tempo settings.</p>
+          <p class="big w3-text-light-grey">The main focus in the app are the three grids. They can be thought of as a kind of sequencer. A multitude of patterns can be created on them, and they are synchronized to a global speed and scale setting. One good way to start would be to create some simple patterns, or just load up an example and start playing with the different harmony and tempo settings.</p>
         </div>
 
       </div>
@@ -242,13 +242,13 @@
   <div class="w3-gc_white">
     <div class="w3-container w3-content w3-border-top">
       <div class="w3-row blockspace">
-        <div class="w3-col m12 l7">
+        <div class="w3-col m12 l12">
           <div class="w3-row">
-            <div class="w3-col fixText">
+            <div class="w3-col">
               <h3 id="midi">Midi</h3>
               <p class="big">A few notes about the midi output.</p>
               <ul class="manual">
-                <li class="manual">Gridcomposer supports midi output via wireless network. Each grid has a corresponding midi channel assigned (1,2,3). To connect with the app you have to be in the same network, or create an ad-hoc network. This midi feature should work well in most cases, but it really depends on your setup and your connection latency.</li>
+                <li class="manual">Gridcomposer supports midi output via wireless network. Each grid has a corresponding midi channel assigned <i>(1, 2, 3)</i>. To connect with the app you have to be in the same network, or create an ad-hoc network. This midi feature should work well in most cases, but it really depends on your setup and your connection latency.</li>
                 <li class="manual">On OSX you need to open the <i>Audio-Midi-Setup</i> app and setup a network connection. Check out this <a href="http://musicappblog.com/wireless-network-midi-ipad-to-mac/">guide</a> for more information.</li>
                 <li class="manual">If you are on Windows, you can try using <a href="http://www.tobias-erichsen.de/software/rtpmidi.html">rtpMidi</a> to connect with iOS devices.</li>
                 <li class="manual">If you having issues to connect, try to switch midi on and off in the settings menu or restart the app on your device (double-press the home button and swipe the app away).</li>
@@ -257,18 +257,13 @@
             <div class="w3-rest"></div>
           </div>
         </div>
-        <div class="w3-col l5 w3-display-container">
-          <img class="manualIMG" src="images/manualF.png" style="width:100%; max-width:500px;  margin: auto; display: block;">
-        </div>
+
       </div>
     </div>
   </div>
 
 
 
-  <div class="w3-gc_white">
-    <div class="w3-container w3-content w3-border-top"></div>
-  </div>
   <?php include("foo.php") ?>
 
 

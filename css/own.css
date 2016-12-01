@@ -10,10 +10,11 @@ p{color:#131313;}
 h1,h2,h3,h4,h5,h6,.w3-slim,.w3-wide{font-family:"Teko",Arial,sans-serif; font-weight: 400; }
 
 .footerTxt{
-  font-size: 0.75em;
-  font-weight: 600;
-  color: #404040;
+  font-weight: 300;
+  font-size: 1.05em;
+  color: #F1F1F1;
 }
+
 
 
 h3{

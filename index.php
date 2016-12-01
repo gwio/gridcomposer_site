@@ -132,7 +132,7 @@
           <div class="w3-row">
             <div class="w3-col fixText">
               <h3>Start Playing</h3>
-              <p class="big">You can start building from scratch on an empty grid, or use one of the prebuilt examples as a starting point. Take a look at the short quickstart guide below, to get an impression how GridComposer works. Check the manual to get a complete overview of the functionality.
+              <p class="big">You can start building from scratch on an empty grid, or use one of the prebuilt examples as a starting point. Take a look at the short quickstart guide below, to get an impression how GridComposer works. Check the <a href="manual.php">manual</a> to get a complete overview of the functionality.
               </p>
             </div>
             <div class="w3-rest"></div>
@@ -176,7 +176,7 @@
     </div>
   </div>
 
-  <div class="w3-gc_black">
+  <div class="w3-gc_black w3-border-bottom">
     <div class="w3-container w3-content w3-center w3-gc_black">
       <div class="w3-row blockspace">
         <div class='embed-container'>
