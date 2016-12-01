@@ -43,7 +43,7 @@
     <div class="w3-container w3-content w3-center">
       <div class="w3-row blockspace">
         <div class='embed-container'>
-          <iframe src='https://player.vimeo.com/video/178198571?title=0&byline=0&portrait=0' frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+          <iframe src='https://player.vimeo.com/video/192820464?title=0&byline=0&portrait=0' frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
         </div>
       </div>
     </div>
@@ -150,7 +150,7 @@
     <div class="w3-container w3-content w3-center w3-gc_black">
       <div class="w3-row blockspace">
         <div class='embed-container'>
-          <iframe src='https://player.vimeo.com/video/178198571?title=0&byline=0&portrait=0' frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+          <iframe src='https://player.vimeo.com/video/192821278?title=0&byline=0&portrait=0' frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
         </div>
       </div>
     </div>
@@ -180,7 +180,7 @@
     <div class="w3-container w3-content w3-center w3-gc_black">
       <div class="w3-row blockspace">
         <div class='embed-container'>
-          <iframe src='https://player.vimeo.com/video/178160438?title=0&byline=0&portrait=0' frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+          <iframe src='https://player.vimeo.com/video/192954003?title=0&byline=0&portrait=0' frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
         </div>
       </div>
     </div>
