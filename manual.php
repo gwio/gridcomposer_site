@@ -264,6 +264,11 @@
     </div>
   </div>
 
+
+
+  <div class="w3-gc_white">
+    <div class="w3-container w3-content w3-border-top"></div>
+  </div>
   <?php include("foo.php") ?>
 
 

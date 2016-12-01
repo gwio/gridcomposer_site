@@ -24,7 +24,7 @@
           <div class="mainTitle">GridComposer</div>
           <div class="subTitle">Experimental Sequencer for iOS</div>
         </div>
-        <a href=""><img class="applink" src="images/appstore.png"></a>
+        <a href="https://itunes.apple.com/us/app/gridcomposer/id993489006?ls=1&mt=8"><img class="applink" src="images/appstore.png"></a>
       </div>
     </div>
   </div>

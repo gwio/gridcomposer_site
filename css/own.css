@@ -9,6 +9,12 @@ p{color:#131313;}
 
 h1,h2,h3,h4,h5,h6,.w3-slim,.w3-wide{font-family:"Teko",Arial,sans-serif; font-weight: 400; }
 
+.footerTxt{
+  font-size: 0.75em;
+  font-weight: 600;
+  color: #404040;
+}
+
 
 h3{
   font-family: "Open Sans Condensed";
@@ -148,12 +154,12 @@ li.navbar{
   font-family: "Open Sans Condensed";
   color:#131313;
   padding:0;
-  font-weight: 300;
+  font-weight: 600;
   letter-spacing: 0.05rem;
-  font-size: 1.25em;
+  font-size: 1.0em;
   line-height: 2.1;
   border-bottom: 0;
-  padding-bottom: 4px;
+  padding-bottom: 6px;
 }
 
 .imgMarker{
@@ -161,10 +167,11 @@ li.navbar{
   width: 3.5px;
   border-radius: 18%;
   display: inline-block;
-  transition-property: background-color, color;
+  transition-property: height, width;
   transition-duration: 300ms;
   cursor:pointer;
 }
+
 
 
 .slideArrow{
@@ -278,7 +285,7 @@ ul.manual{
   }
   .fixText{width: 87%;}
 
-  #featureIMG{padding-top:18.5%;}
+  #featureIMG{padding-top:20.0%;}
   #playingIMG{padding-top:19%;}
   #midiIMG{padding-top:19%;}
   #manualLogo{padding-top:0%;max-width: 300px;}
