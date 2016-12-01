@@ -4,8 +4,8 @@
   <!-- Basic Page Needs
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <meta charset="utf-8">
-  <title>GridComposer</title>
-  <meta name="description" content="GridComposer Appstore Sequencer">
+  <title>GridComposer - Experimental Sequencer for iOS</title>
+  <meta name="description" content="text/html">
 
 
   <!-- Mobile Specific Metas

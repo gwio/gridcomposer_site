@@ -18,7 +18,7 @@
     <div class="w3-container w3-content">
       <div class="w3-row w3-display-container titleContainer">
         <div class="w3-col m7">
-          <img src="images/gc_title.png" style="width:100%">
+          <img src="images/gc_title.png" alt="GridComposer Title Image" style="width:100%">
         </div>
         <div class="w3-col m5">
           <div class="mainTitle">GridComposer</div>
@@ -79,7 +79,7 @@
           <?php
           $featurePics = 0;
           foreach (glob("images/featureSlide/*.png") as $filename){
-            echo '<img id="featureIMG" class="featureSlide w3-animate-opacity" src="' . $filename . '" style="width:80%;max-width:400px; display:block; margin:auto;" onclick="plusDivs(1,2)">';
+            echo '<img alt="GridComposer App Screenshot" id="featureIMG" class="featureSlide w3-animate-opacity" src="' . $filename . '" style="width:80%;max-width:400px; display:block; margin:auto;" onclick="plusDivs(1,2)">';
             $featurePics+=1;
           }
           ?>
@@ -104,7 +104,7 @@
         <?php
         $galleryPics = 0;
         foreach (glob("images/slideshow/*.png") as $filename){
-          echo '<img class="screenSlide w3-animate-opacity" src="' . $filename . '" style="width:100%;" onclick="plusDivs(1,1)">';
+          echo '<img alt="GridComposer screenshot on iPad and iPhone" class="screenSlide w3-animate-opacity" src="' . $filename . '" style="width:100%;" onclick="plusDivs(1,1)">';
           $galleryPics+=1;
         }
         ?>
@@ -139,7 +139,7 @@
           </div>
         </div>
         <div class="w3-col l5 w3-display-container">
-          <img id="playingIMG" src="images/gc_empty.png" style="width:100%; max-width:500px;  margin: auto; display: block;">
+          <img alt="GridComposer Screenshot with iPad" id="playingIMG" src="images/gc_empty.png" style="width:100%; max-width:500px;  margin: auto; display: block;">
         </div>
       </div>
     </div>
@@ -170,7 +170,7 @@
           </div>
         </div>
         <div class="w3-col m12 l5 w3-display-container">
-          <img id="midiIMG" src="images/gc_midi.png"  style="width:100%;  margin:auto; display:block; max-width: 500px ">
+          <img alt="GridComposer Screenshot" id="midiIMG" src="images/gc_midi.png"  style="width:100%;  margin:auto; display:block; max-width: 500px ">
         </div>
       </div>
     </div>
