@@ -234,9 +234,12 @@ foreach( $xml->children() as $child )
 			<title>'. COMPANY_TITLE .'</title>
 			<link href="http://cdnjs.cloudflare.com/ajax/libs/uikit/1.2.0/css/uikit.gradient.min.css" rel="stylesheet" type="text/css">
 			<link href="style.css" rel="stylesheet" type="text/css">
-			</head>
+			</head>';
 
-			<body>
+      include_once('../analyticstracking.php');
+
+
+			echo'<body>
 			<div class="uk-container uk-container-center">
 			<div class="uk-grid">
 			<div id="navigation" class="uk-width-medium-1-4">

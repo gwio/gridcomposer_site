@@ -3,6 +3,7 @@
 
 !/css
 !/press
+!/press/lang
 
 #Whitelist the gitignore itself
 !.gitignore
@@ -12,3 +13,4 @@
 !*.css
 !*.js
 !*.php
+!*.xml

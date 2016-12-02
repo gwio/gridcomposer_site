@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- example file containing base tags -->
+
+<game>
+	<title>GridComposer</title>
+	<developer>Christian Gwiozda</developer>
+	<developerweb>http://www.gwiozda.net</developerweb>
+	<founding-date>September 1, 2010</founding-date>
+	<website>http://gridcomposer.gwiozda.net</website>
+	<based-in>Trier, Germany</based-in>
+	<platform>iOS</platform>
+	<price>USD 1.99</price>
+	<category>Music</category>
+	<release>November 2016</release>
+
+	<press-contact>christian@gwiozda.net</press-contact>
+	<phone>+00 (1) 22 33 44 55 66</phone>
+	<address>
+		<line>Address Line 1</line>
+		<line>Address Line 2</line>
+		<line>Address Line 3</line>
+	</address>
+
+	<socials>
+		<social>
+			<name>twitter.com/MyCompanyName</name>
+			<link>twitter.com/MyCompanyName</link>
+		</social>
+		<social>
+			<name>facebook.com/MyCompanyName</name>
+			<link>facebook.com/MyCompanyName</link>
+		</social>
+		<social>
+			<name>Skype</name>
+			<link>callto:MySkypeName</link>
+		</social>
+	</socials>
+
+	<description>
+		GridComposer is an experimental sequencer for the iOS platform. The idea is to build custom patterns on the three grids. Every grid will be triggered from all sides by a rotating playhead. This results in a different short melodie for each direction, and depends also on the created shapes. The notes are automatically assigned from a global scale, so no musical knowledge is required to start playing. The speed and playhead behaviour, along with the harmonic settings, can be changed in realtime to explore many different variations. GridComposer contains a bunch of premade examples and features midi connectivity via wireless network.
+	</description>
+
+	<features>
+			<feature><text>Universal App for iPhone and iPad.</text></feature>
+			<feature><text>Four build-in, polyphonic synthesizer presets.</text></feature>
+			<feature><text>Save manager for compositions.</text></feature>
+			<feature><text>Notes are automatically assigned from a global scale.</text></feature>
+			<feature><text>Volume mixer.</text></feature>
+			<feature><text>Adjustable playhead for each track.</text></feature>
+			<feature><text>The musical scale, key and octave can be adjusted on the fly.</text></feature>
+			<feature><text>Advanced options to create custom scales.</text></feature>
+			<feature><text>Individual tempo and trigger speed settings for each track.</text></feature>
+			<feature><text>Reverb and delay effects.</text></feature>
+			<feature><text>Midi output via wifi connection.</text></feature>
+	</features>
+
+	<trailers>
+		<trailer>
+			<name>GridComposer - Trailer</name>
+			<vimeo>192820464</vimeo>
+		</trailer>
+		<trailer>
+			<name>GridComposer - Midi Out Example</name>
+			<vimeo>192954003</vimeo>
+		</trailer>
+		<trailer>
+			<name>GridComposer - Quick Start Guide</name>
+			<vimeo>192821278</vimeo>
+		</trailer>
+	</trailers>
+
+
+
+	<awards>
+		<!--
+		<award>
+			<description>Winner in this highly relevant contest.</description>
+			<info>Award Location, 20 October, 1989</info>
+		</award>
+		<award>
+			<description>Nomination for this prestigious award.</description>
+			<info>Award Ceremony, 4 December, 1991</info>
+		</award>
+		<award>
+			<description>Winner in this highly relevant contest.</description>
+			<info>Award Location, 20 October, 1989</info>
+		</award>
+		<award>
+			<description>Nomination for this prestigious award.</description>
+			<info>Award Ceremony, 4 December, 1991</info>
+		</award>
+	-->
+	</awards>
+
+
+	<quotes>
+		<!--
+		<quote>
+			<description>This is a rather insignificant quote by a highly important person.</description>
+			<name>Person Name</name>
+			<website>Website</website>
+			<link>http://www.website.com/</link>
+		</quote>
+		<quote>
+			<description>An extremely positive quote from a rather insignificant person. Also great.</description>
+			<name>Some Guy</name>
+			<website>This Page Is Visited By 12 Visitors A Month</website>
+			<link>http://geocities.blog.com/</link>
+		</quote>
+		<quote>
+			<description>I pretend to love this game even though I do not actually understand it.</description>
+			<name>Pretentious Bastard</name>
+			<website>Artsy Page</website>
+			<link>http://art.tumblr.com/</link>
+		</quote>
+		<quote>
+			<description>HOLY SHIT SO AMAZING</description>
+			<name>Caps Guy</name>
+			<website>Angry Review</website>
+			<link>http://thispage.net/angrytube</link>
+		</quote>
+	-->
+	</quotes>
+
+	<press-can-request-copy>TRUE</press-can-request-copy> <!-- can be true or false -->
+	<monetization-permission>monetize</monetization-permission> <!-- can be: 	false (no video allowed),
+																			 	ask (permission on case-per-case basis),
+																			 	non-commercial (no monetization allowed),
+																			 	monetize (full permission) -->
+	<additionals>
+		<!--
+		<additional>
+			<title></title>
+			<description>GridComposer was developed using the open source C++ toolkit openFrameworks.</description>
+			<link>http://openframeworks.cc/</link>
+		</additional>
+	-->
+	</additionals>
+
+	<credits>
+		<credit>
+			<person>Christian Gwiozda</person>
+			<role>Independent Developer and Graphic Desinger.</role>
+		</credit>
+	</credits>
+
+	<contacts>
+		<contact>
+			<name>Inquiries</name>
+			<mail>christian@gwiozda.net</mail>
+		</contact>
+		<contact>
+			<name>Twitter</name>
+			<link>https://twitter.com/chris_gwio</link>
+		</contact>
+		<contact>
+			<name>Web</name>
+			<link>http://www.gwiozda.net</link>
+		</contact>
+	</contacts>
+</game>
