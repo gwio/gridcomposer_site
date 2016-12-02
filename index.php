@@ -68,6 +68,7 @@
                 <li>Set the tempo and individual trigger speed for each track.</li>
                 <li>Ability to add delay and reverb effects.</li>
                 <li>Output midi notes to your audio software via wifi.</li>
+                <li>Adjust the playhead for each grid.</li>
               </ul>
             </div>
             <div class="w3-rest"></div>

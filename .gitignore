@@ -2,6 +2,7 @@
 *
 
 !/css
+!/press
 
 #Whitelist the gitignore itself
 !.gitignore
