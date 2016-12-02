@@ -537,7 +537,7 @@ echo '<ul>';
 					}
 
 					if( count($additionals) > 0 ) {
-						echo '<h2 id="links">'. tl('Press copy') .'</h2>';
+						echo '<h2 id="links">'. tl('Press Copy') .'</h2>';
 
 						for( $i = 0; $i < count($additionals); $i++ )
 						{
