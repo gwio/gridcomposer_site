@@ -128,13 +128,13 @@
 																			 	non-commercial (no monetization allowed),
 																			 	monetize (full permission) -->
 	<additionals>
-		<!--
+
 		<additional>
-			<title></title>
-			<description>GridComposer was developed using the open source C++ toolkit openFrameworks.</description>
-			<link>http://openframeworks.cc/</link>
+			<title>Press Copy</title>
+			<description>Please get in touch for a review copy. I'll get backt to you as soon as possible.</description>
+			<link></link>
 		</additional>
-	-->
+
 	</additionals>
 
 	<credits>

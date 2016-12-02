@@ -267,7 +267,7 @@ foreach( $xml->children() as $child )
 			if( count($quotes) > 0 ) echo '<li><a href="#quotes">'. tl('Selected Articles') .'</a></li>';
 
 			if( count($additionals) > 0 ) {
-				echo '<li><a href="#links">'. tl('Additional Links') .'</a></li>';
+				echo '<li><a href="#links">'. tl('Press Copy') .'</a></li>';
 			}
 
 			echo '						<li><a href="#credits">'. tl('Team') .'</a></li>
@@ -537,7 +537,7 @@ echo '<ul>';
 					}
 
 					if( count($additionals) > 0 ) {
-						echo '<h2 id="links">'. tl('Additional Links') .'</h2>';
+						echo '<h2 id="links">'. tl('Press copy') .'</h2>';
 
 						for( $i = 0; $i < count($additionals); $i++ )
 						{
@@ -559,8 +559,7 @@ echo '<ul>';
 							} else { $linkTitle = $link; }
 
 							echo '<p>
-							<strong>'.$title.'</strong><br/>
-							'.$description.' <a href="http://'.parseLink($link).'" alt="'.parseLink($link).'">'.$linkTitle.'</a>.
+							'.$description.'
 							</p>';
 
 						}
@@ -570,7 +569,7 @@ echo '<ul>';
 
 					echo '					<div class="uk-grid">
 					<div class="uk-width-medium-1-2">
-					<h2 id="credits">'. tl('Team & Repeating Collaborators') .'</h2>';
+					<h2 id="credits">'. tl('Credits') .'</h2>';
 
 					for( $i = 0; $i < count($credits); $i++ )
 					{
