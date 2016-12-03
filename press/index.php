@@ -429,23 +429,23 @@ echo '<ul>';
 					}
 
 					echo '<div class="uk-grid images">';
-					if ($handle = opendir('images'))
-					{
+
+
 						/* This is the correct way to loop over the directory. */
-						while (false !== ($entry = readdir($handle)))
-						{
-							if( substr($entry,-4) == ".png" || substr($entry,-4) == ".gif" )
+						foreach (glob("images/*.png") as $image):
+
+							if( substr($image,-4) == ".png" || substr($image,-4) == ".gif" )
 							{
-								if( substr($entry,0,4) != "logo" && substr($entry,0,4) != "icon" && substr($entry,0,6) != "header" )
+								if( substr($image,7,4) != "logo" && substr($image,7,4) != "icon" && substr($image,7,6) != "header" )
 								{
-									echo '<div class="uk-width-medium-1-2"><a href="images/'. $entry .'"><img src="images/'.$entry.'" alt="'.$entry.'" /></a></div>';
+									echo '<div class="uk-width-medium-1-2"><a href="'. $image .'"><img src="'.$image.'" alt="'.$image.'" /></a></div>';
 								}
 							}
-						}
-					}
+						endforeach;
+
 					echo '</div>';
 
-					closedir($handle);
+
 
 					echo '					<p class="images-text">'. tlHtml('There are far more images available for %s, but these are the ones we felt would be most useful to you. If you have specific requests, please do <a href="#contact">contact us</a>!', COMPANY_TITLE) .'</p>
 
