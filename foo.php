@@ -6,7 +6,7 @@
       </div>
       <div class="w3-col s12 l6 w3-left" style="padding-top: 0.75%;">
         <p class="footerTxt" style="text-transform:uppercase;">GridComposer is created by <a style="border-bottom: 1px solid #BBBBBB;" href="http://www.gwiozda.net">Christian Gwiozda</a></p>
-        <p class="footerTxt"><a style="border-bottom: 1px solid #BBBBBB;" href="mailto:christian@gwiozda.net">gridcomposer[at]gwiozda.net</a></p>
+        <p class="footerTxt"><a style="border-bottom: 1px solid #BBBBBB;" href="mailto:mail@gridcomposer.net">gridcomposer[at]gwiozda.net</a></p>
         <p class="footerTxt"><a style="border-bottom: 1px solid #BBBBBB;" href ="https://twitter.com/chris_gwio">@chris_gwio</a></p>
         <p class="footerTxt"><a style="border-bottom: 1px solid #BBBBBB;" href ="press/index.php">Presskit</a></p>
       </div>
