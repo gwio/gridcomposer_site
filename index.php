@@ -84,6 +84,10 @@
             $featurePics+=1;
           }
           ?>
+
+          <div class="w3-display-left slideArrow w3-hover-text-dark-grey" style="cursor:pointer; padding-left:3.5%;padding-bottom:0.0%;color:#d6d6d6"  onclick="plusDivs(-1,2)">&#10094;</div>
+          <div class="w3-display-right slideArrow w3-hover-text-dark-grey" style="cursor:pointer; padding-right:3.5%;padding-bottom:0.0%;color:#d6d6d6" onclick="plusDivs(1,2)">&#10095;</div>
+
           <div class="w3-center" style="width:100%">
             <?php
             for ($x = 1; $x <= $featurePics; $x++) {
@@ -182,6 +186,18 @@
       <div class="w3-row blockspace">
         <div class='embed-container'>
           <iframe src='https://player.vimeo.com/video/192954003?title=0&byline=0&portrait=0' frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="w3-gc_white">
+    <div class="w3-container w3-content">
+      <div class="w3-row blockspace">
+        <div class="w3-col m12 l12">
+          <h3>Reviews</h3>
+          <a href="http://audionewsroom.net/2016/12/introducing-gridcomposer-for-ios-a-nifty-experimental-sequencer.html">audionewsroom.net</a>
+          <p><i>From a quick test, it looks like a perfect app for those into minimalism (think Steve Reich playing with an iPad). Sure, I wish to see a more full featured MIDI section, more instruments and Ableton Link support in the next updates, but even as it is, the app is really well-designed (I loved the fact that you can change scale and key on the fly) and deserves your attention.</i></p>
         </div>
       </div>
     </div>
