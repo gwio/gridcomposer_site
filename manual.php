@@ -242,22 +242,20 @@
   <div class="w3-gc_white">
     <div class="w3-container w3-content w3-border-top">
       <div class="w3-row blockspace">
-        <div class="w3-col m12 l12">
+        <div class="w3-col m12 l7">
           <div class="w3-row">
-            <div class="w3-col">
-              <h3 id="midi">Midi</h3>
-              <p class="big">A few notes about the midi output.</p>
+            <div class="w3-col fixText">
+              <h3 id="midi">Connectivity</h3>
+              <p class="big">Version 1.1 added support for Audiobus, Inter-App Audio and Core-Midi.</p>
               <ul class="manual">
-                <li class="manual">Gridcomposer supports midi output via wireless network. Each grid has a corresponding midi channel assigned <i>(1, 2, 3)</i>. To connect with the app you have to be in the same network, or create an ad-hoc network. This midi feature should work well in most cases, but it really depends on your setup and your connection latency.</li>
-                <li class="manual">On OSX you need to open the <i>Audio-Midi-Setup</i> app and setup a network connection. Check out this <a href="http://musicappblog.com/wireless-network-midi-ipad-to-mac/">guide</a> for more information.</li>
-                <li class="manual">If you are on Windows, you can try using <a href="http://www.tobias-erichsen.de/software/rtpmidi.html">rtpMidi</a> to connect with iOS devices.</li>
-                <li class="manual">If you having issues to connect, try to switch midi on and off in the settings menu or restart the app on your device (double-press the home button and swipe the app away).</li>
+                <li class="manual">You can stream live audio directly to other <i>Audiobus</i> and <i>Inter-App Audio</i> compatible apps. It is recommended to start Gridcomposer from inside the <i>Audiobus</i> or <i>IIA</i> app to avoid possible connectivity issues.</li>
+                <li class="manual">To send midi notes to other apps you have to open a port by tapping the Midi-Switch in the settings screen. You can chose to send a dynamic velocity based on the amount of "blocks" or to set the velocity via the slider manually. You might also consider to lower the volume to zero in the mixer.</li>
+                <li class="manual">The app will only continue to run, and play sound, in the background when connected to another app via <i>IAA</i> or <i>AB</i>. Or when having an open Midi Port.</li>
               </ul>
             </div>
             <div class="w3-rest"></div>
           </div>
         </div>
-
       </div>
     </div>
   </div>

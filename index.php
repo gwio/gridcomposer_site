@@ -67,7 +67,8 @@
                 <li>Advanced options to create custom scales.</li>
                 <li>Set the tempo and individual trigger speed for each track.</li>
                 <li>Ability to add delay and reverb effects.</li>
-                <li>Output midi notes to your audio software via wifi.</li>
+                <li>Stream live audio via Audiobus or Inter-App audio.</li>
+                <li>Output notes to other apps via Core-MIDI.</li>
                 <li>Adjust the playhead for each grid.</li>
               </ul>
             </div>

@@ -51,7 +51,8 @@
 			<feature><text>Advanced options to create custom scales.</text></feature>
 			<feature><text>Individual tempo and trigger speed settings for each track.</text></feature>
 			<feature><text>Reverb and delay effects.</text></feature>
-			<feature><text>Midi output via wifi connection.</text></feature>
+			<feature><text>Midi output via Core-Midi to other apps.</text></feature>
+			<feature><text>Stream live audio via Audiobus or Inter-App audio.</text></feature>
 	</features>
 
 	<trailers>
