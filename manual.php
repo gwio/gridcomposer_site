@@ -249,7 +249,7 @@
               <p class="big">Version 1.1 added support for Audiobus, Inter-App Audio and Core-Midi.</p>
               <ul class="manual">
                 <li class="manual">You can stream live audio directly to other <i>Audiobus</i> and <i>Inter-App Audio</i> compatible apps. It is recommended to start Gridcomposer from inside the <i>Audiobus</i> or <i>IIA</i> app to avoid possible connectivity issues.</li>
-                <li class="manual">To send midi notes to other apps you have to open a port by tapping the Midi-Switch in the settings screen. You can chose to send a dynamic velocity based on the amount of "blocks" or to set the velocity via the slider manually. You might also consider to lower the volume to zero in the mixer.</li>
+                <li class="manual">To send midi notes to other apps you have to open a port by tapping the Midi-Switch in the settings screen. The app is sending to channels 2-4 (small bug in this version) for each grid. You can chose to send a dynamic velocity based on the amount of "blocks" or to set the velocity via the slider manually. You might also consider to lower the volume to zero in the mixer.</li>
                 <li class="manual">The app will only continue to run, and play sound, in the background when connected to another app via <i>IAA</i> or <i>AB</i>. Or when having an open Midi Port.</li>
               </ul>
             </div>
